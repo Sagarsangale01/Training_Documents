@@ -144,3 +144,75 @@ Next :::
 	- User Management
 	- Security Management 
 	- Credentials Management 	
+
+
+##########################
+Day - 14 | 21st Apr. 2026
+##########################			
+
+	- Jenkins Global System Configuration 			
+				# Define default Jenkins properties and connection to exeternal servers 
+		
+		Email Notification :
+		
+			- Success/Failure/Abort
+	
+	- Plugins Management 	
+				# Used to manage the Jenkins Plugins - Install/Uninstall/Update/Enable/Disable
+				
+				
+	- Tools Management 
+				# Manage the external tools and its installation path.
+	
+	- User Management	
+				# To Create Jenkins User Profile and Authentication			
+				# Jenkin's root/admin user --> Initial User.
+	
+	- Security Management 
+				# To Provide User Authorization
+				
+	- Credentials Management 
+				# To maintain the credentials of any external Servers/Users
+				
+
+	- Create Jenkins Job/Project in Jenkins Master ::
+	
+		- Jenkins Jobs/Projects :::
+		
+			- Jenkins Freestyle Project 
+				- Completely Manual Configurations using Dashboard
+				- Choose Freestyle Project Template
+			
+			- Jenkins Pipeline Project 
+				- Used to Create the actual Build and Deployment Automation Jobs 
+				- Used to Onboard the Applications
+				- Pipeline Projects are created using Groovy Scripts 
+	
+	- Handling Variables in Jenkins ::::
+	
+		- Environment Variables :::
+			- Reserved Jenkins Variables/Key-words
+			
+			Eg.:
+			
+			echo "Environment Variable: - ${JOB_NAME}-${BUILD_NUMBER}"
+		
+				echo $var1
+				
+				"${var1}"
+			
+			
+		- User Defined Variables ::::
+		
+				envi = 'QA'
+	
+	
+Next ::: 
+	
+	- Jenkins Pipeline Project 	
+	- Create the Jenkins Master & Slave Node Configurations
+	- Create CICD Pipeline Projects to automate the Applications build  and deployments
+	- Onboard Applications to DevOps Practice
+	- Periodic Backup & Recovery
+	- Periodic Upgrade of Jenkins Services and Plugins 
+	- Troubleshoot any Jenkins related Issues
